@@ -12,7 +12,7 @@ function App() {
       <SignUpForm setToken={setToken} />
     </>
   );
-}
+};
 
 export default App;
 
