@@ -37,7 +37,7 @@ function SignUpForm( setToken ) {
 
     return (
         <>
-            {error && <p>Error Something Went Wrong, Please Try Again Later...</p>}
+            {error && <p> Error Something Went Wrong, Please Try Again Later...</p>}
             <h2>SignUpForm</h2>
             <form onSubmit={handleSubmit}>
                 <label>
